@@ -3,7 +3,7 @@ version: "3.8"
 services:
   # Apache NiFi
   nifi:
-    image: apache/nifi:1.28.1
+    image: apache/nifi:1.27.0
     container_name: nifi
     restart: always
     ports:
