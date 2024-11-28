@@ -1,103 +1,58 @@
-version: "3.8"
-
+version: "3.9"
 services:
-  # Apache NiFi
   nifi:
-    image: apache/nifi:1.27.0
+    image: apache/nifi:latest
     container_name: nifi
-    restart: always
     ports:
-      - 8443:8443
+      - "8080:8080"
     environment:
-      SINGLE_USER_CREDENTIALS_USERNAME: admin
-      SINGLE_USER_CREDENTIALS_PASSWORD: admin_password
+      - NIFI_WEB_HTTP_PORT=8080
     volumes:
-      - ./nifi_data:/opt/nifi/nifi-current/logs
+      - nifi_data:/opt/nifi/nifi-current
 
-  # MongoDB
   mongo:
-    image: mongo:6
+    image: mongo:latest
     container_name: mongo
-    restart: always
     ports:
-      - 27017:27017
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
+      - "27017:27017"
     volumes:
       - mongo_data:/data/db
 
-  # Mongo Express
   mongo-express:
-    image: mongo-express
+    image: mongo-express:latest
     container_name: mongo-express
-    restart: always
     ports:
-      - 8081:8081
+      - "8081:8081"
     environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: example
-      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+    depends_on:
+      - mongo
 
-  # PostGISTEST
-  postgis:
-    image: postgis/postgis:15-3.3
-    container_name: postgis
-    restart: always
+  postgres:
+    image: postgres:latest
+    container_name: postgres
     ports:
-      - 5432:5432
+      - "5432:5432"
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: gisdb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: my_database
     volumes:
-      - postgis_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
 
-  # pgAdmin
   pgadmin:
     image: dpage/pgadmin4:latest
     container_name: pgadmin
-    restart: always
     ports:
-      - 5050:80
+      - "5050:80"
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin
-    volumes:
-      - pgadmin_data:/var/lib/pgadmin
-
-  # Zookeeper
-  zookeeper:
-    image: confluentinc/cp-zookeeper:7.5.0
-    container_name: zookeeper
-    restart: always
-    ports:
-      - 2181:2181
-    environment:
-      ZOOKEEPER_CLIENT_PORT: 2181
-      ZOOKEEPER_TICK_TIME: 2000
-
-  # Kafka
-  kafka:
-    image: confluentinc/cp-kafka:7.5.0
-    container_name: kafka
-    restart: always
-    ports:
-      - 9092:9092
     depends_on:
-      - zookeeper
-    environment:
-      KAFKA_BROKER_ID: 1
-      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
-      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      - postgres
 
 volumes:
   nifi_data:
   mongo_data:
-  postgis_data:
-  pgadmin_data:
-
-networks:
-  default:
-    name: integration_network
+  postgres_data:
