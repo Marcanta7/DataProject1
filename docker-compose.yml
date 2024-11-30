@@ -24,12 +24,22 @@ services:
     image: mongo
     restart: always
     ports:
-      - 27017:27017    
+      - 27017:27017 
+    networks:
+      - app-network   
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
     volumes:
       - data:/data/db
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      retries: 5
+      start_period: 10s
+      timeout: 10s
+    dns:
+     - 8.8.8.8
 
   mongo-express:
     image: mongo-express
@@ -41,32 +51,32 @@ services:
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
       ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
 
-  postgres:
-    image: postgres:latest
-    container_name: postgres
-    ports:
-      - "5432:5432"
-    environment:
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: admin
-      POSTGRES_DB: my_database
+  streamlit:
+    image: python:3.9-slim
+    container_name: streamlit_app
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-
-  pgadmin:
-    image: dpage/pgadmin4:latest
-    container_name: pgadmin
+      - ./:/app
+    working_dir: /app
+    command: bash -c "pip install -r requirements.txt && streamlit run mapa2.py" 
     ports:
-      - "5050:80"
+      - "8501:8501"
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+      - MONGO_URI=mongodb://mongo-1:27017
+    networks:
+      - app-network
     depends_on:
-      - postgres
+      - mongo
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+networks:
+  app-network:
+    driver: bridge
+
 
 volumes:
   data:
   nifi_data:
   mongo_data:
-  postgres_data:
-  
+    driver: local
