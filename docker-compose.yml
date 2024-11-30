@@ -12,6 +12,8 @@ services:
     volumes:
       - ./data:/tmp/data
     user: "0:0"
+    networks:
+      - app-network
     
   zookeeper:
     image: debezium/zookeeper:2.7.3.Final
