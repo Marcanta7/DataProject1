@@ -1,33 +1,45 @@
-version: "3.9"
 services:
+    
   nifi:
     image: apache/nifi:1.27.0
     container_name: nifi
+    restart: always
     ports:
-      - "8080:8080"
+      - 8443:8443
     environment:
-      - NIFI_WEB_HTTP_PORT=8080
+      - SINGLE_USER_CREDENTIALS_USERNAME=admin
+      - SINGLE_USER_CREDENTIALS_PASSWORD=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
     volumes:
-      - nifi_data:/opt/nifi/nifi-current
+      - ./data:/tmp/data
+    user: "0:0"
+    
+  zookeeper:
+    image: debezium/zookeeper:2.7.3.Final
+    ports:
+     - 2181:2181
+     - 2888:2888
+     - 3888:3888
 
   mongo:
-    image: mongo:latest
-    container_name: mongo
+    image: mongo
+    restart: always
     ports:
-      - "27017:27017"
+      - 27017:27017    
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
     volumes:
-      - mongo_data:/data/db
+      - data:/data/db
 
   mongo-express:
-    image: mongo-express:latest
-    container_name: mongo-express
+    image: mongo-express
+    restart: always
     ports:
-      - "8081:8081"
+      - 8081:8081
     environment:
-      - ME_CONFIG_MONGODB_SERVER=mongo
-      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
-    depends_on:
-      - mongo
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
 
   postgres:
     image: postgres:latest
@@ -53,6 +65,8 @@ services:
       - postgres
 
 volumes:
+  data:
   nifi_data:
   mongo_data:
   postgres_data:
+  
