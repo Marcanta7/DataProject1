@@ -11,9 +11,12 @@ services:
       - SINGLE_USER_CREDENTIALS_PASSWORD=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
     volumes:
       - ./data:/tmp/data
+      # - ./nifi-config:/opt/nifi/nifi-current/conf 
     user: "0:0"
     networks:
       - app-network
+    # depends_on:
+    #   - mongo
     
   zookeeper:
     image: debezium/zookeeper:2.7.3.Final
