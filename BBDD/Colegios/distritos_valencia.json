@@ -1,0 +1,80 @@
+{
+    "distritos": [
+        {
+            "distrito": "CIUTAT VELLA",
+            "codigos_postales": ["46001", "46002", "46003"]
+        },
+        {
+            "distrito": "EIXAMPLE",
+            "codigos_postales": ["46006", "46004", "46005"]
+        },
+        {
+            "distrito": "EXTRAMURS",
+            "codigos_postales": ["46007", "46008"]
+        },
+        {
+            "distrito": "CAMPANAR",
+            "codigos_postales": ["46015", "46009"]
+        },
+        {
+            "distrito": "LA SAÏDIA",
+            "codigos_postales": ["46009", "46010", "46019"]
+        },
+        {
+            "distrito": "PLA DEL REAL",
+            "codigos_postales": ["46010", "46021"]
+        },
+        {
+            "distrito": "L'OLIVERETA",
+            "codigos_postales": ["46014", "46018"]
+        },
+        {
+            "distrito": "PATRAIX",
+            "codigos_postales": ["46018", "46017", "46015"]
+        },
+        {
+            "distrito": "JESÚS",
+            "codigos_postales": ["46007", "46017", "46006"]
+        },
+        {
+            "distrito": "QUATRE CARRERES",
+            "codigos_postales": ["46006", "46026", "46013"]
+        },
+        {
+            "distrito": "POBLATS MARÍTIMS",
+            "codigos_postales": ["46024", "46011"]
+        },
+        {
+            "distrito": "CAMINS AL GRAU",
+            "codigos_postales": ["46022", "46023"]
+        },
+        {
+            "distrito": "ALGIRÓS",
+            "codigos_postales": ["46021", "46022"]
+        },
+        {
+            "distrito": "BENIMACLET",
+            "codigos_postales": ["46020", "46022"]
+        },
+        {
+            "distrito": "RASCANYA",
+            "codigos_postales": ["46019", "46025"]
+        },
+        {
+            "distrito": "BENICALAP",
+            "codigos_postales": ["46015", "46035"]
+        },
+        {
+            "distrito": "POBLES DEL NORD",
+            "codigos_postales": ["46016"]
+        },
+        {
+            "distrito": "POBLES DEL SUD",
+            "codigos_postales": ["46012"]
+        },
+        {
+            "distrito": "POBLES DE L'OEST",
+            "codigos_postales": ["46035"]
+        }
+    ]
+}
