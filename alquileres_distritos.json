@@ -1,0 +1,159 @@
+[
+    {
+        "LITMUN": "Valencia",
+        "cudis_data": [
+            {
+                "CUDIS": {
+                    "name": "CIUTAT VELLA",
+                    "district": 1
+                },
+                "ALQTBID12_M_VC_22": 680.0,
+                "ALQTBID12_M_VU_22": 550.0
+            },
+            {
+                "CUDIS": {
+                    "name": "L'EIXAMPLE",
+                    "district": 2
+                },
+                "ALQTBID12_M_VC_22": 700.0,
+                "ALQTBID12_M_VU_22": NaN
+            },
+            {
+                "CUDIS": {
+                    "name": "EXTRAMURS",
+                    "district": 3
+                },
+                "ALQTBID12_M_VC_22": 630.0,
+                "ALQTBID12_M_VU_22": NaN
+            },
+            {
+                "CUDIS": {
+                    "name": "CAMPANAR",
+                    "district": 4
+                },
+                "ALQTBID12_M_VC_22": 637.5,
+                "ALQTBID12_M_VU_22": 745.8333333333334
+            },
+            {
+                "CUDIS": {
+                    "name": "LA SAIDIA",
+                    "district": 5
+                },
+                "ALQTBID12_M_VC_22": 550.0,
+                "ALQTBID12_M_VU_22": NaN
+            },
+            {
+                "CUDIS": {
+                    "name": "EL PLA DEL REAL",
+                    "district": 6
+                },
+                "ALQTBID12_M_VC_22": 730.0,
+                "ALQTBID12_M_VU_22": NaN
+            },
+            {
+                "CUDIS": {
+                    "name": "L'OLIVERETA",
+                    "district": 7
+                },
+                "ALQTBID12_M_VC_22": 500.0,
+                "ALQTBID12_M_VU_22": 597.3187499999999
+            },
+            {
+                "CUDIS": {
+                    "name": "PATRAIX",
+                    "district": 8
+                },
+                "ALQTBID12_M_VC_22": 540.0,
+                "ALQTBID12_M_VU_22": NaN
+            },
+            {
+                "CUDIS": {
+                    "name": "JESUS",
+                    "district": 9
+                },
+                "ALQTBID12_M_VC_22": 510.0,
+                "ALQTBID12_M_VU_22": 400.0
+            },
+            {
+                "CUDIS": {
+                    "name": "QUATRE CARRERES",
+                    "district": 10
+                },
+                "ALQTBID12_M_VC_22": 575.0,
+                "ALQTBID12_M_VU_22": 555.0
+            },
+            {
+                "CUDIS": {
+                    "name": "POBLATS MARITIMS",
+                    "district": 11
+                },
+                "ALQTBID12_M_VC_22": 550.0,
+                "ALQTBID12_M_VU_22": 538.3333333333334
+            },
+            {
+                "CUDIS": {
+                    "name": "CAMINS AL GRAU",
+                    "district": 12
+                },
+                "ALQTBID12_M_VC_22": 618.5440632192926,
+                "ALQTBID12_M_VU_22": 596.4052287581699
+            },
+            {
+                "CUDIS": {
+                    "name": "ALGIROS",
+                    "district": 13
+                },
+                "ALQTBID12_M_VC_22": 679.4483568075117,
+                "ALQTBID12_M_VU_22": NaN
+            },
+            {
+                "CUDIS": {
+                    "name": "BENIMACLET",
+                    "district": 14
+                },
+                "ALQTBID12_M_VC_22": 602.3333333333334,
+                "ALQTBID12_M_VU_22": 524.4791666666667
+            },
+            {
+                "CUDIS": {
+                    "name": "RASCANYA",
+                    "district": 15
+                },
+                "ALQTBID12_M_VC_22": 500.0,
+                "ALQTBID12_M_VU_22": 500.0
+            },
+            {
+                "CUDIS": {
+                    "name": "BENICALAP",
+                    "district": 16
+                },
+                "ALQTBID12_M_VC_22": 506.566127694859,
+                "ALQTBID12_M_VU_22": 529.1666666666667
+            },
+            {
+                "CUDIS": {
+                    "name": "POBLES DEL NORD",
+                    "district": 17
+                },
+                "ALQTBID12_M_VC_22": 450.0,
+                "ALQTBID12_M_VU_22": 804.1666666666666
+            },
+            {
+                "CUDIS": {
+                    "name": "POBLES DE L'OEST",
+                    "district": 18
+                },
+                "ALQTBID12_M_VC_22": 450.0,
+                "ALQTBID12_M_VU_22": 498.8636363636364
+            },
+            {
+                "CUDIS": {
+                    "name": "POBLES DEL SUD",
+                    "district": 19
+                },
+                "ALQTBID12_M_VC_22": 450.0,
+                "ALQTBID12_M_VU_22": 600.0
+            }
+        ]
+    }
+]
