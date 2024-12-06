@@ -1,0 +1,2672 @@
+[
+    {
+        "nombre":"CEP 9 D'OCTUBRE",
+        "codigo_postal":"46016",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT EL AVE MARÍA",
+        "codigo_postal":"46035",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP CAMI DE L'HORTA",
+        "codigo_postal":"46035",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP BENIMÀMET",
+        "codigo_postal":"46035",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NUESTRA SEÑORA DEL ROSARIO",
+        "codigo_postal":"46026",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAGRADO CORAZÓN DE JESÚS -CARMELITAS-",
+        "codigo_postal":"46003",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT CENTRO DE ESTUDIOS GARCÍA BROCH",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN JOSÉ HH. FRANCISCANAS DE LA INMACULADA",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN VICENTE FERRER-DOMINICOS",
+        "codigo_postal":"46004",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAGRADO CORAZÓN HH.MARISTAS",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT LICEO CORBI",
+        "codigo_postal":"46006",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ACADEMIA JARDÍN",
+        "codigo_postal":"46026",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NUESTRA SEÑORA DEL SOCORRO",
+        "codigo_postal":"46007",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT INMACULADO CORAZÓN DE MARÍA",
+        "codigo_postal":"46008",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE INTEGRAT LA PURÍSIMA-FRANCISCANAS",
+        "codigo_postal":"46018",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NUESTRA SEÑORA DE FÁTIMA",
+        "codigo_postal":"46018",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MANTELLATE",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MERCURIO",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MARÍA INMACULADA",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MARÍA AUXILIADORA",
+        "codigo_postal":"46019",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN JUAN BOSCO",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEE PÚB. RUIZ JIMÉNEZ",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SALESIANOS SAN ANTONIO ABAD",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT CLARET",
+        "codigo_postal":"46020",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN JOSÉ DE CALASANZ",
+        "codigo_postal":"46010",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE ESTRANGER COLEGIO ALEMÁN DE VALENCIA",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ESCUELAS PÍAS-MALVARROSA",
+        "codigo_postal":"46011",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT PUREZA DE MARÍA",
+        "codigo_postal":"46011",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT TRAFALGAR",
+        "codigo_postal":"46023",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTA ANA",
+        "codigo_postal":"46021",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP PROFESOR SANTIAGO GRISOLIA",
+        "codigo_postal":"46022",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT AVE MARÍA DE PEÑARROCHA",
+        "codigo_postal":"46023",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NUESTRA SEÑORA DE LOS DESAMPARADOS",
+        "codigo_postal":"46024",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SOM ESCOLA",
+        "codigo_postal":"46014",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTA CRUZ",
+        "codigo_postal":"46920",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT PUREZA DE MARÍA",
+        "codigo_postal":"46014",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT CLARET FUENSANTA",
+        "codigo_postal":"46014",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NIÑO JESÚS",
+        "codigo_postal":"46015",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MARJO",
+        "codigo_postal":"46025",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MARNI",
+        "codigo_postal":"46019",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP SANTA TERESA",
+        "codigo_postal":"46003",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SAN JUAN DE RIBERA",
+        "codigo_postal":"46004",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP MONTOLIVET",
+        "codigo_postal":"46006",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP TEODORO LLORENTE",
+        "codigo_postal":"46008",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP NUESTRA SEÑORA DEL CARMEN",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP JAUME I",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SAN PEDRO",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP CAVITE-ISLA DE HIERRO",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP FORN D'ALCEDO",
+        "codigo_postal":"46026",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP LES ARTS",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP PADRE MANJÓN",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP RODRÍGUEZ FORNOS",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SALVADOR TUSET",
+        "codigo_postal":"46025",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP CIUTAT ARTISTA FALLER",
+        "codigo_postal":"46025",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES LUIS VIVES",
+        "codigo_postal":"46002",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES SAN VICENTE FERRER",
+        "codigo_postal":"46005",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES JUAN DE GARAY",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES ISABEL DE VILLENA",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES SOROLLA",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CIPFP VICENTE BLASCO IBÁÑEZ",
+        "codigo_postal":"46005",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP RAQUEL PAYA",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SARA FERNÁNDEZ",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SANTA KLAUS",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP CIUTAT VELLA",
+        "codigo_postal":"46003",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ARGOS",
+        "codigo_postal":"46015",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"IES FONT DE SANT LLUÍS",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP INS. INTER IV",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP NICOLAU PRIMITIU GÓMEZ SERRANO",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI APÓSTOL SANTIAGO",
+        "codigo_postal":"46021",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI NIÑO JESÚS",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES CAMPANAR",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP ANGELINA CARNICER",
+        "codigo_postal":"46021",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP RAFAEL MATEU CÁMARA",
+        "codigo_postal":"46006",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP PARE CATALÀ",
+        "codigo_postal":"46020",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP DANIEL MATALLÍN, SL",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEP REI EN JAUME",
+        "codigo_postal":"46016",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"ESCOLA SUPERIOR D'ART DRAMÀTIC",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES EL CLOT",
+        "codigo_postal":"46009",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP ANTONIO MACHADO",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP COMUNITAT VALENCIANA",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES NÚMERO 26",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP CIUDAD DE BOLONIA",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP FEDERICO GARCÍA LORCA",
+        "codigo_postal":"46021",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE DANSA MARÍA CARBONELL",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA MALVARROSA",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA CENTRO SOCIAL DEL GRAO",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA REINA DOÑA GERMANA",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA PARC DE L'OEST",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES FRANCESC FERRER I GUÀRDIA",
+        "codigo_postal":"46020",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP L'AMISTAT",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP MESTALLA",
+        "codigo_postal":"46021",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEE PRIV. PARÁLISIS CEREBRAL INFANTIL CRUZ ROJA",
+        "codigo_postal":"46010",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA CENTRE DE MÚSICA NATZARET",
+        "codigo_postal":"46024",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA POBLADOS MARÍTIMOS",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE L'ÀNEC BOIG",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ELEMENTAL DE DANSA SOCIETAT CORAL EL MICALET",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL CABIROL",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES DE TAVERNES BLANQUES",
+        "codigo_postal":"46016",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP C.ESTUDIOS FINANCIEROS",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL GIORGETA",
+        "codigo_postal":"46007",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA CRA.\/FUENTE SAN LUIS",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA AMPARO ITURBI",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA DE ORRIOLS",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES EL SALER",
+        "codigo_postal":"46012",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CASA CUNA SANTA ISABEL",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE TURIA",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL LA AURORA",
+        "codigo_postal":"46008",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL BAMBINOS",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES BENICALAP",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP C.ESTUDIOS RODRIGO-GIORGETA",
+        "codigo_postal":"46007",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA FRANCISCA PASCUAL",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEP AIORA",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE AMADEUS SCHOOL",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL SAN PASCUAL BAYLÓN",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CARAGOLS I MARIETES II",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BAMBI",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL SAN LUIS",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SAN JOSÉ",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE MÚSICA ASOCIAC. MUSICAL ALSINA",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL LOS DUENDES",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL PETER PAN",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE DU-DU-A",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP INUPEL II",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BETERÓ",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL EDEN",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SAMBORI-LATORRE",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP COLEGIO RUZAFA",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES RASCANYA-ANTONIO CAÑUELO",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE JARDÍN DE SERRERIA",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BAMBINI",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP TAES",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP LA PATACONA",
+        "codigo_postal":"46120",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP TOMÁS DE MONTAÑANA",
+        "codigo_postal":"46023",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MARNI II",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP IVAFE",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE VIRGEN DE CORTES 2",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SACAPUNTAS S\/CORT. NI PUNTAS",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"E. PRIV. DE MÚSICA SOCIETAT MUSICAL LA UNIÓ DE TRES FORQUES",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PEQUES-ÑAJOS",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP XABEC",
+        "codigo_postal":"46019",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE MÚSICA TALLER DE MÚSICA JOVE",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA OFICIAL D'IDIOMES VALÈNCIA-QUATRE CARRERES",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP CFFOLGADO",
+        "codigo_postal":"46017",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PEÚCOS",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PITUFOS",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BALEARS II",
+        "codigo_postal":"46023",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP TEVIÁN CEP",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL GENT MENUDA",
+        "codigo_postal":"46024",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA SOCIETAT MUSICAL BARRI MALILLA",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL EL VALLE 1",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE FANTASÍA",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL RISITAS",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LA MILOTXA II",
+        "codigo_postal":"46035",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MONTESSORI-SAN ISIDRO",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA MARÍA RAFOLS",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE TXANOGORRITXU",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PASITO A PASITO",
+        "codigo_postal":"46004",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP L'ALBEREDA",
+        "codigo_postal":"46023",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LITTLE FRIENDS",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CAMPAMENT",
+        "codigo_postal":"46035",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BABY'S BRAIN",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SAINT TIMOTHY",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP NÀUTICA I SUBAQUÀTICA",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PIPO 2",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL GUPPYDOS",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL BENICALAP",
+        "codigo_postal":"46025",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MI PEQUEÑO MUNDO",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP STUDIO",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL ALGIRÓS",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BAMBY-ABADE 2",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ETAPAS",
+        "codigo_postal":"46023",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP CLAUDIO GALENO",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS MARNI",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE RONDALLES",
+        "codigo_postal":"46016",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS CENAFE",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP MEDITERRÁNEO CULINARY CENTER",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS FASCV",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA ACORDES",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA OFICIAL D'IDIOMES VALÈNCIA-BENICALAP",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA  ASOCIACIÓN MUSICAL LUÍS VIVES",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA GAYANO LLUCH",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE FEBES 2",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SENSATIDOS",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP JOSÉ SENENT",
+        "codigo_postal":"46112",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT GRAN ASOCIACIÓN",
+        "codigo_postal":"46003",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NUESTRA SEÑORA DE LORETO",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP OLLER 1",
+        "codigo_postal":"46006",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTO TOMÁS DE VILLANUEVA",
+        "codigo_postal":"46007",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ESCOLÀPIES VALÈNCIA",
+        "codigo_postal":"46008",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MERCERATOR",
+        "codigo_postal":"46019",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT LUZ CASANOVA",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NUESTRA SEÑORA DEL CARMEN-S.VICENTE PAÚL",
+        "codigo_postal":"46025",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTIAGO APÓSTOL",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NUESTRA SEÑORA DEL PILAR",
+        "codigo_postal":"46021",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ENGEBA",
+        "codigo_postal":"46021",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTA MAGDALENA SOFÍA",
+        "codigo_postal":"46024",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SALGUI",
+        "codigo_postal":"46017",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP IVAF-LUIS FORTICH",
+        "codigo_postal":"46017",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTA MARÍA",
+        "codigo_postal":"46014",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN MARCELINO",
+        "codigo_postal":"46017",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ESCUELAS SAN JOSÉ (I. POLIT.)",
+        "codigo_postal":"46015",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP JESÚS",
+        "codigo_postal":"46007",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SANTO ÁNGEL DE LA GUARDA",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP LUIS VIVES",
+        "codigo_postal":"46007",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP CERVANTES",
+        "codigo_postal":"46008",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP GASPAR GIL POLO",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SAN FERNANDO",
+        "codigo_postal":"46010",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP LES ARENES",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SAN JOSÉ DE CALASANZ",
+        "codigo_postal":"46024",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE F. DON JUAN DE DIOS MONTAÑES",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP PAX",
+        "codigo_postal":"46008",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ESCUELAS PROFESIONALES DE ARTESANOS",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"IES JORDI DE SANT JORDI",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES EL CABANYAL",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES BENLLIURE",
+        "codigo_postal":"46010",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT HOGAR NUESTRA SEÑORA DEL ROSARIO",
+        "codigo_postal":"46011",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"ESCOLA D'ART I SUPERIOR DE DISSENY DE VALENCIA",
+        "codigo_postal":"46001",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP FAUSTO MARTÍNEZ",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP 8 DE MARÇ",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP DOCTOR BARCIA GOYANES",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BAMBY-ABADE",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP 9 D'OCTUBRE",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP PINEDO",
+        "codigo_postal":"46012",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL EL TREN",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP LLUÍS DE SANTÀNGEL",
+        "codigo_postal":"46012",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES DISTRICTE MARÍTIM",
+        "codigo_postal":"46023",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT CONCHA ESPINA II",
+        "codigo_postal":"46007",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP TOMÁS DE VILLARROYA",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP FERNANDO DE LOS RIOS",
+        "codigo_postal":"46006",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT VILAVELLA",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MARTÍ SOROLLA II",
+        "codigo_postal":"46006",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE ENS. ARTIST. PROFESSIONALS  BARREIRA ARTE Y DISEÑO",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE DANSA MARI CRUZ ALCALÁ",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP CARLES SALVADOR",
+        "codigo_postal":"46020",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT JUAN COMENIUS",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP PABLO NERUDA",
+        "codigo_postal":"46026",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES RAMON LLULL",
+        "codigo_postal":"46021",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP PROFESOR SANCHIS GUARNER",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP LLUÍS GUARNER",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES BALEARES",
+        "codigo_postal":"46023",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE ELEMENTAL DE MÚSICA AURORA I",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA ESCUELA POPULAR NAZARET",
+        "codigo_postal":"46024",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA L'ALGUER",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA SANT MARCEL·LÍ",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI 1er CICLE CENTRO SOCIAL EL GRAO",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP MIQUEL ADLERT I NOGUEROL",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA AGRUPACIÓN ARTÍSTICO MUSICAL",
+        "codigo_postal":"46016",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA HIPOLITO MARTINEZ",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CONSERVATORI PROFESSIONAL DE MÚSICA NÚMERO 2",
+        "codigo_postal":"46001",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CIPFP AUSIÀS MARCH",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE DÁLMATAS",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL CHIQUILÍN",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE DUMBO",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP I. INTER",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PIPO",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL EL NIU DE SANT ISIDRE",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL PATUFET",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CIPFP CIUTAT DE L'APRENENT",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL JESÚS-KIND",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LES PIRULETES",
+        "codigo_postal":"46035",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE REDOLINS",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA AGRUPACIÓN MUSICAL BENICALAP",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES MALILLA",
+        "codigo_postal":"46026",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP MARE NOSTRUM",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP HUMANISTA MARINER",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LA MILOTXA",
+        "codigo_postal":"46035",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL BETEL",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE  ANAIA",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LA ESTRELLA",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL TEYSA",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SAN JUAN BOSCO",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CASA DE LA CARIDAD",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA DE LA SOC.MUS.UNIÓN DE PESCADORES",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA NUESTRA SEÑORA DE FÁTIMA",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PITUS RUZAFA",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE JESÚS NIÑO",
+        "codigo_postal":"46100",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES ABASTOS",
+        "codigo_postal":"46008",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PADBURY, SL",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE GLOBITOS",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PEKAS",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE GARABATOS",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CRECIENDO JUNTOS",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE WINNIE",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LA SENYERA",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PARC CENTRAL COOP.V.",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA TALLER DE MÚSICA",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PITUS ABASTOS",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL LA AURORA 2",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE COLORINS",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP LUMEN 1993 CENTRO ESTUDIOS, SL",
+        "codigo_postal":"46019",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE FPA MUNICIPAL DE TAVERNES BLANQUES",
+        "codigo_postal":"46016",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LA PAZ",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEE PÚB. ROSA LLÁCER",
+        "codigo_postal":"46026",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CHIQUILANDIA",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MI COLE",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP ALEJANDRA SOLER",
+        "codigo_postal":"46006",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL PARDALETS",
+        "codigo_postal":"46021",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL VALLE 2",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL SOLC",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SAINT THOMAS",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL LÁPICES II",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE NEMOMARLÍN NOU MOLES",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE DINO SCHOOL-BENIMACLET",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PIPOLANDIA",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE COTÓ",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LÁPICES IV",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA CAMPANAR",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL CARAGOL",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL VALLE",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE FORMIGUETES",
+        "codigo_postal":"46026",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE TEYSA-ARAGÓN",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LA AURORA 3",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL L'ALQUERIA",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE QUART 24",
+        "codigo_postal":"46002",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP VERGE DE CORTES. VALÈNCIA",
+        "codigo_postal":"46007",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PASITOS",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BABOO",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL QUATRE CARRERES",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL NUNO NONO",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEE PRIV. FUNDACIÓ MIRA'M",
+        "codigo_postal":"46023",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL MINI-POLI",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL MESTRA EMPAR NAVARRO I GINER",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA AULAMEDA",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE IMPULSO INICIAL",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LLAVORETES",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL SUPERFRIENDS",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP VERGE DE CORTES. SOROLLA",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP PROGRESA",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE SUPERIOR DE MÚSICA BERKLEE-VALENCIA",
+        "codigo_postal":"46013",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP IBE",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE AMICS",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS MIFRA",
+        "codigo_postal":"46013",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP CENTRO DE ESTUDIOS JUSTE",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PASITOS 2",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CASA CARIDAD AVENIDA ECUADOR",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS FVCV",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE MÚSICA EL PARQUE",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA SANTA MARÍA",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ESTRANGER IMAGINE MONTESSORI SCHOOL",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS ANEFF",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"C. ENS. PROF.DE MUS. MADRE FCA. PASCUAL DOMENECH-LA PURÍSIMA",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA SIOAM",
+        "codigo_postal":"46035",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA BENIFARAIG",
+        "codigo_postal":"46016",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LA PEQUETECA",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ESPAI NATURAL",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ESTRANGER VALENCIA MONTESSORI SCHOOL",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA SANTA CECILIA DEL GRAU",
+        "codigo_postal":"46024",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS C.F. DE JUDO Y D.A.",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP MEDAC VALÈNCIA",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP DE LA PROFESIÓN DE PANADERÍA Y PASTELERÍA",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA SEDAJAZZ",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ESTRANGER LABA VALENCIA",
+        "codigo_postal":"46001",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT NATIVIDAD DE NUESTRA SEÑORA",
+        "codigo_postal":"46100",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP MANUEL GONZÁLEZ MARTÍ",
+        "codigo_postal":"46016",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT MARTÍ SOROLLA",
+        "codigo_postal":"46026",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ESCUELAS PÍAS",
+        "codigo_postal":"46001",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ESCOLANÍA NTRA.SRA.DESAMPARADOS",
+        "codigo_postal":"46003",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL LOS ÁNGELES",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN LUIS GONZAGA",
+        "codigo_postal":"46006",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT LUIS DE SANTÁNGEL",
+        "codigo_postal":"46017",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL CONCHA ESPINA I",
+        "codigo_postal":"46017",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT ESCLAVAS DE MARÍA",
+        "codigo_postal":"46018",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT JESÚS MARÍA",
+        "codigo_postal":"46008",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN PEDRO PASCUAL",
+        "codigo_postal":"46008",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT HERMES SOCIEDAD COOPERATIVA VALENCIANA",
+        "codigo_postal":"46018",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTÍSIMA TRINIDAD",
+        "codigo_postal":"46009",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAGRADA FAMILIA",
+        "codigo_postal":"46020",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAGRADO CORAZÓN DE JESÚS -ESCLAVAS-",
+        "codigo_postal":"46010",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT GUADALAVIAR",
+        "codigo_postal":"46021",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT PÍO XII",
+        "codigo_postal":"46010",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP BENIMACLET",
+        "codigo_postal":"46020",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT LA PURÍSIMA",
+        "codigo_postal":"46011",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT CHINER VILLARROYA",
+        "codigo_postal":"46011",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT LA ANUNCIACIÓN",
+        "codigo_postal":"46022",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP MALVA-ROSA",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP EL GRAU",
+        "codigo_postal":"46023",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SANTIAGO APÓSTOL",
+        "codigo_postal":"46011",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT JESÚS MARÍA-FUENSANTA",
+        "codigo_postal":"46014",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAGRADA FAMILIA",
+        "codigo_postal":"46015",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SAN ROQUE",
+        "codigo_postal":"46025",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP JAIME BALMES",
+        "codigo_postal":"46006",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SECTOR AÉREO",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP DOCTOR OLÓRIZ",
+        "codigo_postal":"46009",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP TORREFIEL",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP MIGUEL HERNÁNDEZ",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEP PRIMER MARQUÉS DEL TURIA",
+        "codigo_postal":"46010",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP AUSIÀS MARCH",
+        "codigo_postal":"46024",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP BALLESTER FANDOS",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP ESCUELA PROFESIONAL XAVIER",
+        "codigo_postal":"46003",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"IES CID CAMPEADOR",
+        "codigo_postal":"46018",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES JOANOT MARTORELL",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL CIUDAD JARDÍN",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT SALESIANOS-SAN JUAN BOSCO",
+        "codigo_postal":"46013",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CONSERVATORI SUPERIOR DE MÚSICA JOAQUÍN RODRIGO",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"ESCOLA OFICIAL D'IDIOMES VALÈNCIA-SAÏDIA",
+        "codigo_postal":"46009",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP MAGISTERIO ESPAÑOL",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP JOSÉ SOTO MICÓ",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP VICENTE BLASCO IBÁÑEZ",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP VIVERS",
+        "codigo_postal":"46010",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP LA FONTETA",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT AULA 3",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEE PRIV. AUXILIA",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP CAMPANAR",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES EL GRAO",
+        "codigo_postal":"46011",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP ALTAVIANA",
+        "codigo_postal":"46010",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP ANTONIO GARCÍA LÓPEZ",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEE PÚB. PROFESOR SEBASTIÁN BURGOS",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP PROFESOR BARTOLOMÉ COSSIO",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP JUAN MANUEL MONTOYA",
+        "codigo_postal":"46024",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP FRANCISCO GINER DE LOS RÍOS",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEE PRIV. EL MOLÍ",
+        "codigo_postal":"46015",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE MÚSICA INSTITUTO MUSICAL GINER",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CONSERVATORI PROFESSIONAL DE MÚSICA JOSÉ ITURBI",
+        "codigo_postal":"46023",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP ENSEÑANZAS PROFESIONALES SOROLLA",
+        "codigo_postal":"46006",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CEIP VICENTE GAOS",
+        "codigo_postal":"46021",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP PROFESOR LUIS BRAILLE",
+        "codigo_postal":"46009",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE DANSA VALENCIÀ",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP PROFESSOR RAMIRO JOVER",
+        "codigo_postal":"46017",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP ELISEO VIDAL",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP EXPLORADOR ANDRÉS",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP TEVIÁN",
+        "codigo_postal":"46004",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CIPFP MISERICÒRDIA",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP MAX AUB",
+        "codigo_postal":"46009",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES ORRIOLS",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES BENIMÀMET",
+        "codigo_postal":"46035",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP ACADEMIA DE PELUQUERÍA VALENCIA",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA FONT DE SANT LLUÍS",
+        "codigo_postal":"46013",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA SERRANO MORALES",
+        "codigo_postal":"46008",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE ELEMENTAL DE MÚSICA ALSINA, ASOCIACIÓN",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES JOSÉ BALLESTER GOZALVO",
+        "codigo_postal":"46019",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE ELEMENTAL DE DANSA BOTÀNIC (ESPAI DE DANSA)",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CONSERVATORI PROFESSIONAL DE DANSA",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES BARRI DEL CARME",
+        "codigo_postal":"46003",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE DOCENT PRIVAT FPA CASA DE LOS OBREROS S.VTE. FERRER",
+        "codigo_postal":"46001",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA SANTA CECILIA CASTELLAR-OLIVERAL",
+        "codigo_postal":"46026",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA C.INSTR. MUSICAL CASTELLAR-OLIVERAL",
+        "codigo_postal":"46026",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA DEL PUERTO",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA AULA DE MÚSICA DIVISI",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP SANTA ANA",
+        "codigo_postal":"46021",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE ESTRANGER BRITISH SCHOOL OF VALENCIA",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL CASTILLO",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL CAMPANAR",
+        "codigo_postal":"46015",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE SAMBORI",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BRESSOL-BENIMACLET",
+        "codigo_postal":"46020",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA EL PALMAR",
+        "codigo_postal":"46012",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA ESCOLANIA NTRA.SRA.DESAMPARADOS",
+        "codigo_postal":"46003",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA  AGRUPACIÓ MUSICAL",
+        "codigo_postal":"46112",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES CONSELLERIA",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL DE PINEDO",
+        "codigo_postal":"46012",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL LA PALOMA",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"IES EL RAVATXOL",
+        "codigo_postal":"46026",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES SERPIS",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"IES PATRAIX, VICENTA FERRER ESCRIVÁ",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP CASTELLAR-OLIVERAL",
+        "codigo_postal":"46026",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL TRENET",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CONSERVATORI SUPERIOR DE DANSA",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CEIP SERRERÍA",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE DEHESA",
+        "codigo_postal":"46013",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE KINDER",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP ByS FORMACIÓN",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE NANSY",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CEIP SANT ISIDRE",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI LES RONDALLES",
+        "codigo_postal":"46022",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL COLE",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL OSITO AZUL",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT OLLER 2",
+        "codigo_postal":"46017",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL GUPPY",
+        "codigo_postal":"46005",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL CUCURUCHO",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ALADDIN",
+        "codigo_postal":"46023",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ARCO IRIS",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA LA CLAVE",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ESPECÍFIC D'EDUCACIÓ A DISTÀNCIA CEED",
+        "codigo_postal":"46014",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL",
+        "codigo_postal":"46120",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL MERAVELLES",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA DE LA UNIÓ MUSICAL L'HORTA",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL EL CASTILLO 2",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ELS MARINERETS",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE DIXIE",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ALAMEDA VALÈNCIA",
+        "codigo_postal":"46023",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BOLQUERETS",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP FOLGUERA-VICENT",
+        "codigo_postal":"46120",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE INFANTES",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LITTLE STARS",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LÁPICES III",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE FANTASY SCHOOL",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BABY IALE",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PEKES DE LA OLIVERETA",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP I. INTER II",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CHISPA",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MY HOUSE",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL LA CASITA DEL SOL",
+        "codigo_postal":"46003",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MI OSITA KINDER",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INFANTIL VIRGEN DE CORTES",
+        "codigo_postal":"46007",
+        "regimen":"CONCERTADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE TAMARINDOS-CAMARENA",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA AGRUPACIÓN MUSICAL PATRAIX",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE AL COLE",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MI KITA",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ILLES BALEARS",
+        "codigo_postal":"46023",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ALMA MONTESSORI",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP I. INTER III",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE LÁPICES I",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE GLOBITOS 2",
+        "codigo_postal":"46017",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PEKEÑOS MAGOS",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EL ESCONDITE INGLÉS",
+        "codigo_postal":"46013",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE CUQUETS",
+        "codigo_postal":"46113",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE FPA MUNICIPAL PATACONA",
+        "codigo_postal":"46120",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE ENS. PROFESSIONALS DE MÚSICA ATEN. MUS. DEL PUERTO",
+        "codigo_postal":"46011",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"SECCIÓ DE L'IES CONSELLERIA A VALENCIA",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE XICOTETS",
+        "codigo_postal":"46004",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP CAPITOL",
+        "codigo_postal":"46002",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP FUNDACIÓN TREFOR VALENCIA",
+        "codigo_postal":"46018",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"EI 1er CICLE MUNICIPAL SANT PAU",
+        "codigo_postal":"46015",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE GOMETS",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE ITUITU",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE L'EMBOLIC",
+        "codigo_postal":"46025",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE MARIPOSAS",
+        "codigo_postal":"46026",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE L'ESCOLETA DEL CARME",
+        "codigo_postal":"46003",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS CENETED",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE BAMBINI 2",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE EXPLORA",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP EUROPEO DE VALENCIA",
+        "codigo_postal":"46010",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP ANA SALMERÓN FORMACIÓN",
+        "codigo_postal":"46007",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE FEBES",
+        "codigo_postal":"46014",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP FUNDACIÓN PASCUAL TOMÁS",
+        "codigo_postal":"46022",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS ELITE SPORT",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA YAMAHA MUSIC SCHOOL",
+        "codigo_postal":"46021",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PÚBLIC FPA VICENT VENTURA",
+        "codigo_postal":"46010",
+        "regimen":"PÚBLICO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA CIM BANDA PARROQUIAL DE TORREFIEL",
+        "codigo_postal":"46019",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE ENSENYAMENTS ESPORTIUS GM FOOTBALL ACADEMY",
+        "codigo_postal":"46005",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA C. INSTRUCTIVO MUSICAL TENDETES",
+        "codigo_postal":"46009",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"ESCOLA PRIVADA DE MÚSICA MATILDE SALVADOR",
+        "codigo_postal":"46008",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE PIRATAS",
+        "codigo_postal":"46015",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIVAT FP CF FOLGADO-PORT",
+        "codigo_postal":"46024",
+        "regimen":"PRIVADO"
+    },
+    {
+        "nombre":"CENTRE PRIV. ED. INF. 1er CICLE RUZAFA MONTESSORI",
+        "codigo_postal":"46006",
+        "regimen":"PRIVADO"
+    }
+]
