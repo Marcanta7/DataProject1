@@ -39,10 +39,10 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4@pgadmin.org}
       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
-      PGADMIN_SERVER: "postgres_container"  # Nombre del servidor de PostgreSQL
-      PGADMIN_SERVER_HOST: "postgres"  # Nombre del contenedor de PostgreSQL (asegurate que coincide)
-      PGADMIN_SERVER_PORT: "5432"  # Puerto de PostgreSQL
-      PGADMIN_SERVER_USER: "postgres"  # Usuario de PostgreSQL
+      PGADMIN_SERVER: "postgres_container"
+      PGADMIN_SERVER_HOST: "postgres"
+      PGADMIN_SERVER_PORT: "5432"
+      PGADMIN_SERVER_USER: "postgres"
       PGADMIN_SERVER_PASSWORD: "Welcome01"  
     volumes:
        - pgadmin:/root/.pgadmin
