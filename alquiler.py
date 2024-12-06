@@ -2,9 +2,29 @@ import pandas as pd
 import requests
 import openpyxl
 import json
+import psycopg2
 
-from distritos_nomeclatura import *
+conn_target = psycopg2.connect(
+    dbname="DISTRITOS",
+    user="postgres",
+    password="Welcome01",
+    host="localhost",
+    port="5432" 
+)
 
+cursor = conn_target.cursor()
+
+table_alquiler = """
+CREATE TABLE IF NOT EXISTS alquiler (
+    distrito_id INTEGER,
+    name VARCHAR(255),
+    ALQTBID12_M_VC_22 FLOAT,
+    ALQTBID12_M_VU_22 FLOAT,
+    CONSTRAINT unique_distrito_name UNIQUE (distrito_id, name)
+)
+"""
+cursor.execute(table_alquiler)
+conn_target.commit()
 
 excel_url = "https://cdn.mivau.gob.es/portal-web-mivau/vivienda/serpavi/2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-2022.xlsx"
 
@@ -29,33 +49,31 @@ df_data = pd.read_excel("2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-20
 df_data.columns = df_header.columns
 
 
-# cudis_name = {
-#     4625001: {'name': 'CIUTAT VELLA', 'district': 1},
-#     4625002: {'name': "L'EIXAMPLE", 'district': 2},
-#     4625003: {'name': 'EXTRAMURS', 'district': 3},
-#     4625004: {'name': 'CAMPANAR', 'district': 4},
-#     4625005: {'name': 'LA SAIDIA', 'district': 5},
-#     4625006: {'name': 'EL PLA DEL REAL', 'district': 6},
-#     4625007: {'name': "L'OLIVERETA", 'district': 7},
-#     4625008: {'name': 'PATRAIX', 'district': 8},
-#     4625009: {'name': 'JESUS', 'district': 9},
-#     4625010: {'name': 'QUATRE CARRERES', 'district': 10},
-#     4625011: {'name': 'POBLATS MARITIMS', 'district': 11},
-#     4625012: {'name': 'CAMINS AL GRAU', 'district': 12},
-#     4625013: {'name': 'ALGIROS', 'district': 13},
-#     4625014: {'name': 'BENIMACLET', 'district': 14},
-#     4625015: {'name': 'RASCANYA', 'district': 15},
-#     4625016: {'name': 'BENICALAP', 'district': 16},
-#     4625017: {'name': 'POBLES DEL NORD', 'district': 17},
-#     4625018: {'name': "POBLES DE L'OEST", 'district': 18},
-#     4625019: {'name': 'POBLES DEL SUD', 'district': 19}
-# }
+
+cudis_name = {
+    4625001: {'name': 'CIUTAT VELLA', 'distrito_id': 1},
+    4625002: {'name': "L'EIXAMPLE", 'distrito_id': 2},
+    4625003: {'name': 'EXTRAMURS', 'distrito_id': 3},
+    4625004: {'name': 'CAMPANAR', 'distrito_id': 4},
+    4625005: {'name': 'LA SAIDIA', 'distrito_id': 5},
+    4625006: {'name': 'EL PLA DEL REAL', 'distrito_id': 6},
+    4625007: {'name': "L'OLIVERETA", 'distrito_id': 7},
+    4625008: {'name': 'PATRAIX', 'distrito_id': 8},
+    4625009: {'name': 'JESUS', 'distrito_id': 9},
+    4625010: {'name': 'QUATRE CARRERES', 'distrito_id': 10},
+    4625011: {'name': 'POBLATS MARITIMS', 'distrito_id': 11},
+    4625012: {'name': 'CAMINS AL GRAU', 'distrito_id': 12},
+    4625013: {'name': 'ALGIROS', 'distrito_id': 13},
+    4625014: {'name': 'BENIMACLET', 'distrito_id': 14},
+    4625015: {'name': 'RASCANYA', 'distrito_id': 15},
+    4625016: {'name': 'BENICALAP', 'distrito_id': 16},
+    4625017: {'name': 'POBLES DEL NORD', 'distrito_id': 17},
+    4625018: {'name': "POBLES DE L'OEST", 'distrito_id': 18},
+    4625019: {'name': 'POBLES DEL SUD', 'distrito_id': 19}
+}
     
 
 df_data['CUDIS'] = df_data['CUDIS'].map(cudis_name).fillna(df_data['CUDIS'])
-
-# Crear CSV
-# df_data.to_csv('alquileres_distritos.csv', index=False)
 
 # Crear JSON
 grouped_data = df_data[['LITMUN', 'CUDIS', 'ALQTBID12_M_VC_22', 'ALQTBID12_M_VU_22']].groupby('LITMUN').apply(
@@ -66,6 +84,21 @@ json_data = grouped_data.to_dict(orient='records')
 with open('alquileres_distritos.json', 'w') as json_file:
     json.dump(json_data, json_file, indent=4)
 
+with open('alquileres_distritos.json', 'r') as json_file:
+    alquiler_data = json.load(json_file)
 
-print("Archivo descargado y convertido a CSV y JSON")
+for municipality in alquiler_data:
+    for data in municipality['cudis_data']:
+        cursor.execute(
+            """
+            INSERT INTO alquiler (distrito_id, name, ALQTBID12_M_VC_22, ALQTBID12_M_VU_22)
+            VALUES (%s, %s, %s, %s)
+            ON CONFLICT (distrito_id, name) DO NOTHING
+            """,
+            (data['CUDIS']['distrito_id'], data['CUDIS']['name'], data['ALQTBID12_M_VC_22'], data['ALQTBID12_M_VU_22'])
+        )
+        conn_target.commit() 
 
+
+cursor.close()
+conn_target.close()
