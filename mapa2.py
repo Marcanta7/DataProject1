@@ -3,12 +3,9 @@ import folium
 from streamlit_folium import folium_static
 import requests
 import json
-from pymongo import MongoClient
 
-client = MongoClient('mongodb://root:example@mongo:27017')
-db = client['DATA_PROY_1']
-collection = db['precio_alq_m2']
-documentos = collection.find()
+with open("alquileres_distritos.json", "r") as file:
+    distritos_data = json.load(file)
 
 st.set_page_config(layout="wide")
 
@@ -70,19 +67,22 @@ def green_stripes_style(feature):
         'dashArray': '5,5'
     }
 
-def filtrar_ingresos(precio_2022_m2, ingreso_maximo, area_promedio=60):
-    alquiler_mensual = float(precio_2022_m2) * area_promedio
+def filtrar_ingresos(alquiler_mensual, ingreso_maximo):
     return alquiler_mensual <= 0.4 * ingreso_maximo
 
-def obtener_distritos_aptos(ingreso_maximo, area_promedio=90):
+def obtener_distritos_aptos(ingreso_maximo):
     distritos_aptos = []
-    for documento in documentos:
-        distrito = documento['distrito']
-        precio_2022_m2 = float(documento['precio_2022_m2'])
-        
-        if filtrar_ingresos(precio_2022_m2, ingreso_maximo, area_promedio):
-            distritos_aptos.append(distrito)
+    for distrito in distritos_data:
+        for distrito_data in distrito['cudis_data']:
+            distrito = distrito_data['CUDIS']['name']  # Nombre del distrito
+            alquiler_mensual = distrito_data['ALQTBID12_M_VC_22']  # Calcular alquiler mensual
+            
+            # Verificar si el alquiler mensual es menor o igual al 40% de los ingresos máximos
+            if filtrar_ingresos(alquiler_mensual, ingreso_maximo):
+                distritos_aptos.append(distrito)
+    
     return distritos_aptos
+
 
 
 if response_1.status_code == 200 and response_2.status_code == 200:
