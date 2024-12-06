@@ -73,7 +73,7 @@ bocas["longitud"] = bocas["geometry"].x
 bocas.drop(columns=["geometry"], inplace=True)
 
 # Configuración de la conexión a PostgreSQL
-DB_URI = "postgresql://postgres:Welcome01@localhost:5432/postgres"  # Cambia con tu configuración
+DB_URI = "postgresql://postgres:Welcome01@localhost:5432/DISTRITOS"  # Cambia con tu configuración
 engine = create_engine(DB_URI)
 
 # Insertar en PostgreSQL

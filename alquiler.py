@@ -75,7 +75,6 @@ cudis_name = {
 
 df_data['CUDIS'] = df_data['CUDIS'].map(cudis_name).fillna(df_data['CUDIS'])
 
-
 grouped_data = df_data[['LITMUN', 'CUDIS', 'ALQTBID12_M_VC_22', 'ALQTBID12_M_VU_22']].groupby('LITMUN').apply(
     lambda group: group[['CUDIS', 'ALQTBID12_M_VC_22', 'ALQTBID12_M_VU_22']].to_dict(orient='records')
 ).reset_index(name='cudis_data')
