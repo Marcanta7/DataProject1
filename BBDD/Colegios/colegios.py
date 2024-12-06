@@ -3,11 +3,11 @@ import pandas as pd
 import json
 
 # Configuración
-api_url = "https://valencia.opendatasoft.com/api/explore/v2.1/catalog/datasets/centros-educativos-en-valencia/records"
+api_url = "https://valencia.opendatasoft.com/api/explore/v2.1/catalog/datasets/centros-educativos-en-valencia/exports/json?lang=es&timezone=Europe%2FBerlin"
 
 def fetch_and_clean_data(api_url):
     """
-    Obtiene y limpia los datos de la API, conservando el nombre, código postal y coordenadas.
+    Obtiene y limpia los datos de la API, conservando el nombre, código postal y régimen.
     """
     try:
         # Petición GET a la API
@@ -15,19 +15,16 @@ def fetch_and_clean_data(api_url):
         response.raise_for_status()  # Lanza una excepción si la petición falla
         data = response.json()  # Parsear JSON a diccionario
         
-        # Filtrar los campos necesarios
-        results = data.get("results", [])
+        # Filtrar los campos necesarios directamente desde la lista principal
         filtered_data = [
             {
-                "nombre": result.get("dlibre"),
-                "codigo_postal": result.get("codpos"),
-                "lat": result.get("geo_point_2d", {}).get("lat"),
-                "lon": result.get("geo_point_2d", {}).get("lon")
+                "nombre": item.get("dlibre"),
+                "codigo_postal": item.get("codpos"),
+                "regimen": item.get("regimen")
             }
-            for result in results
-            if result.get("dlibre")  # Validar que exista el nombre
-            and result.get("codpos")  # Validar que exista el código postal
-            and result.get("geo_point_2d")  # Validar que existan coordenadas
+            for item in data
+            if item.get("dlibre")  # Validar que exista el nombre
+            and item.get("codpos")  # Validar que exista el código postal
         ]
         
         # Convertir a DataFrame para manipulación adicional si es necesario
@@ -55,7 +52,7 @@ data_cleaned = fetch_and_clean_data(api_url)
 
 # Guardar los datos limpios como archivo JSON
 if not data_cleaned.empty:
-    output_file = "colegios_valencia.json"
+    output_file = "colegios.json"
     save_to_json(data_cleaned, output_file)
 else:
     print("No se encontraron datos procesados.")
