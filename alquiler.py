@@ -3,6 +3,9 @@ import requests
 import openpyxl
 import json
 
+from distritos_nomeclatura import *
+
+
 excel_url = "https://cdn.mivau.gob.es/portal-web-mivau/vivienda/serpavi/2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-2022.xlsx"
 
 response = requests.get(excel_url)
@@ -26,27 +29,27 @@ df_data = pd.read_excel("2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-20
 df_data.columns = df_header.columns
 
 
-cudis_name = {
-    4625001: {'name': 'CIUTAT VELLA', 'district': 1},
-    4625002: {'name': "L'EIXAMPLE", 'district': 2},
-    4625003: {'name': 'EXTRAMURS', 'district': 3},
-    4625004: {'name': 'CAMPANAR', 'district': 4},
-    4625005: {'name': 'LA SAIDIA', 'district': 5},
-    4625006: {'name': 'EL PLA DEL REAL', 'district': 6},
-    4625007: {'name': "L'OLIVERETA", 'district': 7},
-    4625008: {'name': 'PATRAIX', 'district': 8},
-    4625009: {'name': 'JESUS', 'district': 9},
-    4625010: {'name': 'QUATRE CARRERES', 'district': 10},
-    4625011: {'name': 'POBLATS MARITIMS', 'district': 11},
-    4625012: {'name': 'CAMINS AL GRAU', 'district': 12},
-    4625013: {'name': 'ALGIROS', 'district': 13},
-    4625014: {'name': 'BENIMACLET', 'district': 14},
-    4625015: {'name': 'RASCANYA', 'district': 15},
-    4625016: {'name': 'BENICALAP', 'district': 16},
-    4625017: {'name': 'POBLES DEL NORD', 'district': 17},
-    4625018: {'name': "POBLES DE L'OEST", 'district': 18},
-    4625019: {'name': 'POBLES DEL SUD', 'district': 19}
-}
+# cudis_name = {
+#     4625001: {'name': 'CIUTAT VELLA', 'district': 1},
+#     4625002: {'name': "L'EIXAMPLE", 'district': 2},
+#     4625003: {'name': 'EXTRAMURS', 'district': 3},
+#     4625004: {'name': 'CAMPANAR', 'district': 4},
+#     4625005: {'name': 'LA SAIDIA', 'district': 5},
+#     4625006: {'name': 'EL PLA DEL REAL', 'district': 6},
+#     4625007: {'name': "L'OLIVERETA", 'district': 7},
+#     4625008: {'name': 'PATRAIX', 'district': 8},
+#     4625009: {'name': 'JESUS', 'district': 9},
+#     4625010: {'name': 'QUATRE CARRERES', 'district': 10},
+#     4625011: {'name': 'POBLATS MARITIMS', 'district': 11},
+#     4625012: {'name': 'CAMINS AL GRAU', 'district': 12},
+#     4625013: {'name': 'ALGIROS', 'district': 13},
+#     4625014: {'name': 'BENIMACLET', 'district': 14},
+#     4625015: {'name': 'RASCANYA', 'district': 15},
+#     4625016: {'name': 'BENICALAP', 'district': 16},
+#     4625017: {'name': 'POBLES DEL NORD', 'district': 17},
+#     4625018: {'name': "POBLES DE L'OEST", 'district': 18},
+#     4625019: {'name': 'POBLES DEL SUD', 'district': 19}
+# }
     
 
 df_data['CUDIS'] = df_data['CUDIS'].map(cudis_name).fillna(df_data['CUDIS'])
@@ -65,3 +68,4 @@ with open('alquileres_distritos.json', 'w') as json_file:
 
 
 print("Archivo descargado y convertido a CSV y JSON")
+
