@@ -75,20 +75,20 @@ cudis_name = {
 
 df_data['CUDIS'] = df_data['CUDIS'].map(cudis_name).fillna(df_data['CUDIS'])
 
-# Crear JSON
+
 grouped_data = df_data[['LITMUN', 'CUDIS', 'ALQTBID12_M_VC_22', 'ALQTBID12_M_VU_22']].groupby('LITMUN').apply(
     lambda group: group[['CUDIS', 'ALQTBID12_M_VC_22', 'ALQTBID12_M_VU_22']].to_dict(orient='records')
 ).reset_index(name='cudis_data')
-json_data = grouped_data.to_dict(orient='records')
+# json_data = grouped_data.to_dict(orient='records')
 
-with open('alquileres_distritos.json', 'w') as json_file:
-    json.dump(json_data, json_file, indent=4)
+# with open('alquileres_distritos.json', 'w') as json_file:
+#     json.dump(json_data, json_file, indent=4)
 
-with open('alquileres_distritos.json', 'r') as json_file:
-    alquiler_data = json.load(json_file)
+# with open('alquileres_distritos.json', 'r') as json_file:
+#     alquiler_data = json.load(json_file)
 
-for municipality in alquiler_data:
-    for data in municipality['cudis_data']:
+for municipality in grouped_data['cudis_data']:
+    for data in municipality:
         cursor.execute(
             """
             INSERT INTO alquiler (distrito_id, name, ALQTBID12_M_VC_22, ALQTBID12_M_VU_22)
