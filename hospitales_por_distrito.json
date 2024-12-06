@@ -1,0 +1,91 @@
+{
+  "12": {
+    "total_hospitales": 1,
+    "nombres_hospitales": [
+      "ClInica Casa de la Salud"
+    ],
+    "tipos_financiacion": {
+      "Privado": 1
+    }
+  },
+  "2": {
+    "total_hospitales": 1,
+    "nombres_hospitales": [
+      "Clinica Fontana"
+    ],
+    "tipos_financiacion": {
+      "Privado": 1
+    }
+  },
+  "9": {
+    "total_hospitales": 1,
+    "nombres_hospitales": [
+      "Clinica Virgen del Consuelo"
+    ],
+    "tipos_financiacion": {
+      "Privado": 1
+    }
+  },
+  "4": {
+    "total_hospitales": 3,
+    "nombres_hospitales": [
+      "Hospital 9 de Octubre",
+      "Hospital Arnau de Vilanova",
+      "Fundacion Instituto Valenciano de Oncologia"
+    ],
+    "tipos_financiacion": {
+      "Privado": 1,
+      "Publico": 1,
+      "Concertado": 1
+    }
+  },
+  "6": {
+    "total_hospitales": 2,
+    "nombres_hospitales": [
+      "Clinica Quiron de Valencia, S.A.",
+      "Hospital Clinico Universitario de Valencia"
+    ],
+    "tipos_financiacion": {
+      "Privado": 1,
+      "Publico": 1
+    }
+  },
+  "7": {
+    "total_hospitales": 1,
+    "nombres_hospitales": [
+      "Consorcio Hospital General Universitario De Valencia"
+    ],
+    "tipos_financiacion": {
+      "Publico": 1
+    }
+  },
+  "11": {
+    "total_hospitales": 2,
+    "nombres_hospitales": [
+      "Hospital de Valencia al Mar",
+      "Hospital la Malva-Rosa"
+    ],
+    "tipos_financiacion": {
+      "Publico": 2
+    }
+  },
+  "8": {
+    "total_hospitales": 2,
+    "nombres_hospitales": [
+      "Hospital Universitario Dr. Peset",
+      "Hospital pare Jofre"
+    ],
+    "tipos_financiacion": {
+      "Publico": 2
+    }
+  },
+  "10": {
+    "total_hospitales": 1,
+    "nombres_hospitales": [
+      "Hospital Universitario y Politecnico La Fe"
+    ],
+    "tipos_financiacion": {
+      "Publico": 1
+    }
+  }
+}
