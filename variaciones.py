@@ -84,10 +84,10 @@ if table:
 
 
         insert_query = """
-            INSERT INTO variacion_precio (Precio_m2_nov_24, Variacion_mes, Variacion_tri, Variacion_anual, Maximo_precio, Variacion_percentil)
-            VALUES (%s, %s, %s, %s, %s, %s)
+            INSERT INTO variacion_precio (Precio_m2_nov_24, Variacion_mes, Variacion_tri, Variacion_anual, Maximo_precio, Variacion_percentil,name)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
             """
-        cursor.execute(insert_query, (precio_m2, variacion_mes, variacion_tri, variacion_anual, maximo_precio, variacion_percentil))
+        cursor.execute(insert_query, (precio_m2, variacion_mes, variacion_tri, variacion_anual, maximo_precio, variacion_percentil, name))
 
     conn_target.commit()
 
