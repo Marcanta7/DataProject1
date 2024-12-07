@@ -104,7 +104,7 @@ if response_1.status_code == 200 and response_2.status_code == 200:
 
     col1, col2 = st.columns([1, 3])
 
-## "Columna" de filtros (col1) = la parte izquierda de la app
+    ## "Columna" de filtros (col1) = la parte izquierda de la app
     with col1:
         st.header("Filtros")
         selected_ingresos = st.slider("Selecciona tus ingresos mensuales netos", 0, 10000, 3000)
@@ -113,7 +113,7 @@ if response_1.status_code == 200 and response_2.status_code == 200:
         show_districts = st.checkbox("Mostrar Distritos", value=True)
         show_green_zones = st.checkbox("Mostrar Zonas Verdes", value=True)
 
-## "Columna" donde está el mapa        
+    ## "Columna" donde está el mapa        
     with col2:
         distritos_aptos = obtener_distritos_aptos(selected_ingresos)
         m = folium.Map(location=[39.4699, -0.3763], zoom_start=12)
