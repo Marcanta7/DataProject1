@@ -2,10 +2,15 @@ import streamlit as st
 import folium
 from streamlit_folium import folium_static
 import requests
-import json
+import psycopg2
 
-with open("alquileres_distritos.json", "r") as file:
-    distritos_data = json.load(file)
+conn_target = psycopg2.connect(
+    dbname="DISTRITOS",
+    user="postgres",
+    password="Welcome01",
+    host="postgres",
+    port="5432"
+)
 
 st.set_page_config(layout="wide")
 
@@ -72,15 +77,19 @@ def filtrar_ingresos(alquiler_mensual, ingreso_maximo):
 
 def obtener_distritos_aptos(ingreso_maximo):
     distritos_aptos = []
-    for distrito in distritos_data:
-        for distrito_data in distrito['cudis_data']:
-            distrito = distrito_data['CUDIS']['name']  # Nombre del distrito
-            alquiler_mensual = distrito_data['ALQTBID12_M_VC_22']  # Calcular alquiler mensual
-            
-            # Verificar si el alquiler mensual es menor o igual al 40% de los ingresos máximos
-            if filtrar_ingresos(alquiler_mensual, ingreso_maximo):
-                distritos_aptos.append(distrito)
-    
+    cursor = conn_target.cursor()
+    cursor.execute(
+    """
+    SELECT distrito_id, name, alqtbid12_m_vc_22
+    FROM resumen_2
+    where alqtbid12_m_vc_22 <= %s
+    """, (0.4 * ingreso_maximo,))
+    distritos_data = cursor.fetchall()
+
+    for distrito_id, name, alquiler_mensual in distritos_data:
+        distritos_aptos.append(name)
+
+    cursor.close()
     return distritos_aptos
 
 
