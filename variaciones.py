@@ -14,14 +14,14 @@ conn_target = psycopg2.connect(
 
 cursor = conn_target.cursor()
 table_alquiler = """
-CREATE TABLE IF NOT EXISTS 
-variacion_precio (
-    Precio_m2_nov_24 FOAT,
+CREATE TABLE IF NOT EXISTS variacion_precio (
+    Precio_m2_nov_24 VARCHAR(255),
     Variacion_mes VARCHAR(255),
     Variacion_tri VARCHAR(255),
     Variacion_anual VARCHAR(255),
-    Maximo_precio FLOAT,
-    Variacion_percentil VARCHAR(255)
+    Maximo_precio VARCHAR(255),
+    Variacion_percentil VARCHAR(255),
+    name VARCHAR(255)
     )
 """
 cursor.execute(table_alquiler)
@@ -71,27 +71,26 @@ if table:
         
 # with open('tabla_datos.json', 'w', encoding='utf-8') as f:
 #         json.dump(table_data, f, ensure_ascii=False, indent=4)
-
 # print("El archivo JSON se ha guardado como 'tabla_datos.json'.")
-    for item in table_data:
-        # Extraer los valores de cada columna
-        precio_m2 = item.get('PRECIO M2 NOV 2024', None)
-        variacion_mes = item.get('VARIACION MENSUAL', None)
-        variacion_tri = item.get('VARIACION TRIMESTRAL', None)
-        variacion_anual = item.get('VARIACION ANUAL', None)
-        maximo_precio = item.get('MAXIMO HISTORICO', None)
-        variacion_percentil = item.get('VARIACION MAXIMO', None)
 
-        # Insertar en la base de datos
+    for item in table_data:
+        precio_m2 = item.get('Precio m2 nov 2024', None)
+        variacion_mes = item.get('Variación mensual', None)
+        variacion_tri = item.get('Variación trimestral', None)
+        variacion_anual = item.get('Variación anual', None)
+        maximo_precio = item.get('Máximo histórico', None)
+        variacion_percentil = item.get('Variación máximo', None),
+        name = item.get('name',None)
+
+
         insert_query = """
-        INSERT INTO variacion_precio (Precio_m2_nov_24, Variacion_mes, Variacion_tri, Variacion_anual, Maximo_precio, Variacion_percentil)
-        VALUES (%s, %s, %s, %s, %s, %s)
-        """
+            INSERT INTO variacion_precio (Precio_m2_nov_24, Variacion_mes, Variacion_tri, Variacion_anual, Maximo_precio, Variacion_percentil)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            """
         cursor.execute(insert_query, (precio_m2, variacion_mes, variacion_tri, variacion_anual, maximo_precio, variacion_percentil))
 
     conn_target.commit()
 
-# Cerrar la conexión a la base de datos
 cursor.close()
 conn_target.close()
 
