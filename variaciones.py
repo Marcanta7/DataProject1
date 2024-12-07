@@ -16,7 +16,7 @@ cursor = conn_target.cursor()
 table_alquiler = """
 CREATE TABLE IF NOT EXISTS 
 variacion_precio (
-    Precio_m2_nov_24 FOAT,
+    Precio_m2_nov_24 FLOAT,
     Variacion_mes VARCHAR(255),
     Variacion_tri VARCHAR(255),
     Variacion_anual VARCHAR(255),
