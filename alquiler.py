@@ -46,8 +46,7 @@ df_data = pd.read_excel("2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-20
                    header=0
                    )
 
-df_data.columns = df_header.columns
-
+df_data.columns = df_header.column
 
 
 cudis_name = {
