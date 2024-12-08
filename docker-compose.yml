@@ -4,7 +4,6 @@ services:
     container_name: streamlit_app
     volumes:
       - ./:/app
-      - ./alquileres_distritos.json:/app/alquileres_distritos.json
     working_dir: /app
     command: bash -c "pip install --no-cache-dir -r requirements.txt && streamlit run mapa2.py"
     ports:
@@ -15,6 +14,7 @@ services:
       - app-network
     depends_on:
       - postgres
+      - pgadmin
 
   postgres:
     container_name: postgres_container
