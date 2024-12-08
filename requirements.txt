@@ -6,10 +6,7 @@ streamlit_folium
 psycopg2
 luigi
 openpyxl
-collections
-shapely.geometry
+shapely
 sqlalchemy
 bs4
 unidecode
-subprocess
-os
