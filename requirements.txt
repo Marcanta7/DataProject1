@@ -10,3 +10,4 @@ shapely
 sqlalchemy
 bs4
 unidecode
+geopandas

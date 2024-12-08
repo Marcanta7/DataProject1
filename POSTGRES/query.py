@@ -1,7 +1,9 @@
 import psycopg2
 
+
+
 # Credenciales para conectarte a tu base de datos PostgreSQL
-DB_HOST = "localhost"
+DB_HOST = "postgres"
 DB_NAME = "DISTRITOS"
 DB_USER = "postgres"
 DB_PASSWORD = "Welcome01"
