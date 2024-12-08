@@ -11,7 +11,7 @@ DB_PORT = "5432"  # Cambia este valor si usas un puerto diferente
 
 # Consulta SQL que deseas ejecutar
 QUERY = """
-CREATE TABLE resumen_2 AS (
+CREATE TABLE sqlazo_table AS (
 	SELECT 
         cp.distrito_id, 
         a.name, 

@@ -73,7 +73,7 @@ def obtener_distritos_aptos(ingreso_maximo):
     cursor.execute(
     """
     SELECT distrito_id, name, alqtbid12_m_vc_22
-    FROM resumen_2
+    FROM sqlazo_table
     where alqtbid12_m_vc_22 <= %s
     """, (0.4 * ingreso_maximo,))
     distritos_data = cursor.fetchall()
@@ -87,7 +87,7 @@ def datos_distritos():
     cursor = conn_target.cursor()
     cursor.execute("""
         SELECT distrito_id, name, alqtbid12_m_vc_22, variacion_anual, total_hospitales, tipos_financiacion, total_metro, total_colegios_publicos, total_colegios_privados, total_colegios_concertados
-        FROM resumen_2
+        FROM sqlazo_table
     """)
     distritos_data = cursor.fetchall()
     cursor.close() 
