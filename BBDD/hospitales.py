@@ -127,7 +127,7 @@ db_config = {
     'dbname': 'DISTRITOS',
     'user': 'postgres',
     'password': 'Welcome01',
-    'host': 'localhost',
+    'host': 'postgres',
     'port': 5432
 }
 

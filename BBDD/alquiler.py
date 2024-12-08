@@ -9,7 +9,7 @@ conn_target = psycopg2.connect(
     dbname="DISTRITOS",
     user="postgres",
     password="Welcome01",
-    host="localhost",
+    host="postgres",
     port="5432" 
 )
 

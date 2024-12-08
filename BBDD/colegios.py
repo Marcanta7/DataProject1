@@ -11,7 +11,7 @@ conn = psycopg2.connect(
     dbname="DISTRITOS",  # Cambia al nombre de tu base de datos
     user="postgres",
     password="Welcome01",
-    host="localhost",
+    host="postgres",
     port="5432"
 )
 cursor = conn.cursor()
