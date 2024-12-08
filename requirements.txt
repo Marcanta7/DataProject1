@@ -4,3 +4,12 @@ requests
 folium
 streamlit_folium
 psycopg2
+luigi
+openpyxl
+collections
+shapely.geometry
+sqlalchemy
+bs4
+unidecode
+subprocess
+os

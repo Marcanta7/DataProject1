@@ -1,4 +1,17 @@
 services:
+  luigi:
+    image: python:3.12.6
+    container_name: luigi_scheduler
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: bash -c "pip install --no-cache-dir -r requirements.txt && python orquest_luigi.py"
+    networks:
+      - app-network
+    depends_on:
+      - postgres
+
+
   streamlit:
     image: python:3.12.6
     container_name: streamlit_app
@@ -13,6 +26,7 @@ services:
     networks:
       - app-network
     depends_on:
+      - luigi
       - postgres
       - pgadmin
 
