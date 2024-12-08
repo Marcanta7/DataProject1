@@ -3,6 +3,7 @@ import requests
 import openpyxl
 import json
 import psycopg2
+from io import BytesIO
 
 conn_target = psycopg2.connect(
     dbname="DISTRITOS",
@@ -26,19 +27,21 @@ CREATE TABLE IF NOT EXISTS alquiler (
 cursor.execute(table_alquiler)
 conn_target.commit()
 
+# URL del archivo Excel
 excel_url = "https://cdn.mivau.gob.es/portal-web-mivau/vivienda/serpavi/2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-2022.xlsx"
 
+# Descargar el archivo Excel directamente en memoria
 response = requests.get(excel_url)
-with open("2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-2022.xlsx", "wb") as file:
-    file.write(response.content)
+excel_file = BytesIO(response.content)  # Usamos BytesIO para cargarlo en memoria
 
-df_header = pd.read_excel("2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-2022.xlsx", 
+# Leer las hojas del Excel directamente desde el archivo en memoria
+df_header = pd.read_excel(excel_file, 
                           sheet_name="Distritos",
                           usecols="D, E, HZ, IC",
                           nrows=1,
                           header=0)
 
-df_data = pd.read_excel("2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-2022.xlsx", 
+df_data = pd.read_excel(excel_file, 
                    sheet_name="Distritos", 
                    usecols="D, E, HZ, IC",
                    skiprows=8992,
@@ -47,7 +50,6 @@ df_data = pd.read_excel("2024-05-07_bd_sistema-indices-alquiler-vivienda_2011-20
                    )
 
 df_data.columns = df_header.columns
-
 
 cudis_name = {
     4625001: {'name': 'CIUTAT VELLA', 'distrito_id': 1},
@@ -70,20 +72,12 @@ cudis_name = {
     4625018: {'name': "POBLES DE L'OEST", 'distrito_id': 18},
     4625019: {'name': 'POBLES DEL SUD', 'distrito_id': 19}
 }
-    
 
 df_data['CUDIS'] = df_data['CUDIS'].map(cudis_name).fillna(df_data['CUDIS'])
 
 grouped_data = df_data[['LITMUN', 'CUDIS', 'ALQTBID12_M_VC_22', 'ALQTBID12_M_VU_22']].groupby('LITMUN').apply(
     lambda group: group[['CUDIS', 'ALQTBID12_M_VC_22', 'ALQTBID12_M_VU_22']].to_dict(orient='records')
 ).reset_index(name='cudis_data')
-# json_data = grouped_data.to_dict(orient='records')
-
-# with open('alquileres_distritos.json', 'w') as json_file:
-#     json.dump(json_data, json_file, indent=4)
-
-# with open('alquileres_distritos.json', 'r') as json_file:
-#     alquiler_data = json.load(json_file)
 
 for municipality in grouped_data['cudis_data']:
     for data in municipality:
@@ -95,8 +89,8 @@ for municipality in grouped_data['cudis_data']:
             """,
             (data['CUDIS']['distrito_id'], data['CUDIS']['name'], data['ALQTBID12_M_VC_22'], data['ALQTBID12_M_VU_22'])
         )
-        conn_target.commit() 
-
+        conn_target.commit()
 
 cursor.close()
 conn_target.close()
+

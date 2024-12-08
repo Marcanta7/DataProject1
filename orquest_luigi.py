@@ -48,25 +48,5 @@ class ExecutePostgresQuery(luigi.Task):
         with self.output().open("w") as f:
             f.write("El script query.py se ejecutó correctamente.")
 
-class GenerateMap(luigi.Task):
-    """
-    Tarea final para ejecutar mapa2.py después de que todos los pasos previos se hayan completado.
-    """
-    map_script = "mapa2.py"
-
-    def requires(self):
-        return ExecutePostgresQuery()
-
-    def output(self):
-        return luigi.LocalTarget("logs/map_script_done.txt")
-
-    def run(self):
-        print(f"Ejecutando script: {self.map_script}")
-        subprocess.check_call(["python", self.map_script])
-
-        # Marca la tarea como completada
-        with self.output().open("w") as f:
-            f.write("El script mapa2.py se ejecutó correctamente.")
-
 if __name__ == "__main__":
-    luigi.build([GenerateMap()], local_scheduler=True)
+    luigi.build([ExecutePostgresQuery()], local_scheduler=True)
