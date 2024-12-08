@@ -47,7 +47,7 @@ services:
     restart: unless-stopped
     volumes:
       - pgadmin_data:/var/lib/pgadmin  # Configuración persistente de PgAdmin
-      - ./servers.json:/pgadmin4/servers.json  # Archivo de configuración inicial del servidor
+      - ./servers.json:/pgadmin4/server.json  # Archivo de configuración inicial del servidor
 
 networks:
   app-network:
