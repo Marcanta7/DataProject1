@@ -33,5 +33,5 @@ Para poder ejecutar nuestro proyecto, por favor, siga estos pasos:
 5. En unos segundos te saldrá la base de datos SQLAZO.<br>
 6. Ahora, si quieres ver el mapa final, accede a streamlit: http://localhost:8501/<br>
 <br>
+Finalmente, para ver el proyecto en funcionamiento, puedes acceder a este enlace y visualizar un breve video: https://www.youtube.com/watch?v=IK-wb__eD2I 
 <br>
-Fin 
