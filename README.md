@@ -1,4 +1,4 @@
-<h3>Hola! Somos el equipo SQLazo<br><br>Raúl Algora, Marc Cantero, Claudia Romero, Ting Wang</h3>
+<h3>Hola! Somos el equipo DP1<br><br>Raúl Algora, Marc Cantero, Claudia Romero, Ting Wang</h3>
 <br>
 <br>
 A continuación te doy una breve descripción de lo que encontrarás en este repositorio:
@@ -30,7 +30,7 @@ Para poder ejecutar nuestro proyecto, por favor, siga estos pasos:
 &nbsp&nbsp&nbsp&nbsp- User: pgadmin4@pgadmin.org<br>
 &nbsp&nbsp&nbsp&nbsp- Password: admin<br>
 4. Despliega los servidores y verás que hay un servidor creado! Introduzca la contraseña: Welcome01<br>
-5. En unos segundos te saldrá la base de datos SQLAZO.<br>
+5. En unos segundos te saldrá la base de datos SQL.<br>
 6. Ahora, si quieres ver el mapa final, accede a streamlit: http://localhost:8501/<br>
 <br>
 Finalmente, para ver el proyecto en funcionamiento, puedes acceder a este enlace y visualizar un breve video: https://www.youtube.com/watch?v=IK-wb__eD2I 
