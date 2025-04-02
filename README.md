@@ -1,5 +1,4 @@
-<h3>Hola! Somos el equipo DP1<br><br>Raúl Algora, Marc Cantero, Claudia Romero, Ting Wang</h3>
-<br>
+
 <br>
 A continuación te doy una breve descripción de lo que encontrarás en este repositorio:
 <br>
@@ -35,3 +34,4 @@ Para poder ejecutar nuestro proyecto, por favor, siga estos pasos:
 <br>
 Finalmente, para ver el proyecto en funcionamiento, puedes acceder a este enlace y visualizar un breve video: https://www.youtube.com/watch?v=IK-wb__eD2I 
 <br>
+Trabajo realizado por Marc Cantero, Raúl Algora, Claudia Romero, Ting Wang
